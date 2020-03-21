@@ -32,9 +32,18 @@ return [name, ...kittens]
 
 
 function removeLastKitten(){
-
+ return kittens.slice(0, kittens.length - 1)
 }
 
 function removeFirstKitten(){
 
 }
+
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, array.length - 1)
+}
+
+function accessElementInArray(array, index) {
+  return array[index]
+}
+
